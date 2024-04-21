@@ -8,8 +8,9 @@ export default () => {
 			<Tabs.Screen
 				name="home"
 				options={{
-					tabBarLabel: 'List',
-					headerTitle: 'Home Screen',
+					//tabBarLabel: 'List',
+					//headerTitle: 'Home Screen',
+					headerShown: false,
 					tabBarIcon: ({ color, size }) => <FontAwesome5 name="list" size={size} color={color} />
 				}}
 			/>
